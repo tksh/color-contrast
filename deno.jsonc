@@ -1,0 +1,11 @@
+{
+  "name": "@tksh/color-contrast",
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "fmt": "deno fmt",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint",
+    "test": "deno test",
+    "check": "deno check mod.ts"
+  }
+}
