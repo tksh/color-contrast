@@ -6,6 +6,7 @@
     "fmt:check": "deno fmt --check",
     "lint": "deno lint",
     "test": "deno test",
-    "check": "deno check mod.ts"
+    "check": "deno check mod.ts",
+    "check:publish": "deno publish --dry-run --set-version 0.0.0"
   }
 }
