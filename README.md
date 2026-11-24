@@ -235,4 +235,4 @@ git config --local core.hooksPath .githooks
 
 ## License
 
-MIT
+MPL-2.0
