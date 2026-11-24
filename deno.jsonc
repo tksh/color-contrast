@@ -5,8 +5,16 @@
     "fmt": "deno fmt",
     "fmt:check": "deno fmt --check",
     "lint": "deno lint",
-    "test": "deno test",
-    "check": "deno check mod.ts",
+    "test": "deno test tests/",
+    "check": "deno check src/mod.ts tests/",
     "check:publish": "deno publish --dry-run --set-version 0.0.0"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "imports": {
+    // Test-only assertions.
+    "@std/assert": "jsr:@std/assert@^1.0.1"
   }
 }
